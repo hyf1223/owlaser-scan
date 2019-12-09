@@ -1,13 +1,13 @@
-package com.example.owldemo;
+package com.owlaser.scan;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class OwldemoApplication {
+public class ScanApplication {
 
     public static void main(String[] args) {
-        SpringApplication.run(OwldemoApplication.class, args);
+        SpringApplication.run(ScanApplication.class, args);
     }
 
 }
