@@ -3,9 +3,11 @@ package com.owlaser.scan.Controller;
 import com.owlaser.scan.DAO.Hole;
 import com.owlaser.scan.DAO.HoleRepository;
 import org.springframework.web.bind.annotation.*;
+import org.springframework.web.bind.annotation.CrossOrigin;
 import java.util.List;
 
 @RestController
+@CrossOrigin(origins = "*")
 public class HoleController {
     private final HoleRepository hole;
 
